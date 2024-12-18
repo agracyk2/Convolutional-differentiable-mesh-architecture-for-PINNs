@@ -1,4 +1,4 @@
-# Mesh-convolutional PINNs
+# Convolutional-differentiable mesh architecture (for PINNs)
 This repository contains a convolutional architecture that 
 - takes an input function
 - transforms that function into an output over a mesh
