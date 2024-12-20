@@ -9,14 +9,14 @@ In particular, we learn the mapping
 
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.image?\Psi_{\theta_{\Psi}}(\psi,\Omega,(i_1,...,i_d),t)\rightarrow(\tilde{\psi}_{t},[\tilde{\psi}_{t}]_{i_1,...,i_d})," alt="Eqn1">
+  <img src="https://latex.codecogs.com/svg.image?\Psi_{\theta_{\Psi}}(\psi,\Omega,u_{i_1,...i_d},t)\rightarrow(\tilde{\psi}_{t},\tilde{\psi}_{t}|_{u_{i_1,...,i_d}})," alt="Eqn1">
 </p>
 
 or equivalently,
 
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.image?\Psi:\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{N}^{d}\times(\mathbb{R}^&plus;\cap\{0\})\times\Theta_{\Psi}\rightarrow\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{R}," alt="Eqn1">
+  <img src="https://latex.codecogs.com/svg.image?\Psi:\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{R}^{d}\times(\mathbb{R}^&plus;\cap\{0\})\times\Theta_{\Psi}\rightarrow\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{R}," alt="Eqn1">
 </p>
 
 
