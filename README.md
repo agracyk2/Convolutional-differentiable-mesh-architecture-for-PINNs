@@ -7,9 +7,9 @@ This repository contains a convolutional architecture that
 
 In particular, we learn the mapping
 
-<p align="center">
+<div align="center">
 ![Eqn1](https://latex.codecogs.com/svg.image?\Psi_{\theta_{\Psi}}(\psi,\Omega,(i_1,...,i_d),t)\rightarrow(\tilde{\psi}_{t},[\tilde{\psi}_{t}]_{i_1,...,i_d}))
-</p>
+</div>
 
 where $\Psi$ is the neural network, $\psi$ is the input function, $\Omega$ is a mesh, $(i_1,...,i_d)$ is a specified index, $t$ is time, and $\tilde{\psi}$ is the solution.
   
