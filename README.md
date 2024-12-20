@@ -24,7 +24,7 @@ where $\Psi$ is the neural network, $\psi$ is the input function, $\Omega$ is a 
   
 The architecture thus outputs both the entire mesh at once as well as a single, specified point. This architecture is notable because differentiation in this process is traditionally nontrivial (i.e. we can bypass the error "One of the differentiated tensors has not been used in the graph"), and it prevents the need for concatenation over the entire grid (i.e. it is already done for us).
 
-The reason differentiation with a similar architecture is nontrivial is we want the solution independent of the point to be differentiated, while simultaneously allowing differentiation via connecting the point through the computational graph, since there is a dependence on space and time input to allow automatic differentiation. This architecture conciliates this issue.
+The reason differentiation with a similar architecture is nontrivial is we want the solution independent of the point to be differentiated (otherwise the learning task become significantly harder if there is a dependence), while simultaneously allowing differentiation via connecting the point through the computational graph, since there is a dependence on space and time input to allow automatic differentiation. This architecture conciliates this issue.
 
 In this repository, our code learns the mapping from initial data of CIFAR-10. This can be changed quite flexibly. A more typical example of when to use this architecture, since it is suitable for PINN-type algorithms, is to map a PDE initial condition $\psi$ to the solution PDE over a grid, where we train the PINN using an output $\tilde{\psi}_{t=0}$ of the same initial condition $\psi$ at $t=0$.
 
