@@ -15,6 +15,11 @@ In particular, we learn the mapping
 or equivalently,
 
 
+https://latex.codecogs.com/svg.image?\Psi:\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{N}^{n_d}\times\mathbb{R}^&plus;\times\Theta_{\Psi}\rightarrow\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{R}
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.image?\Psi:\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{N}^{n_d}\times\mathbb{R}^&plus;\times\Theta_{\Psi}\rightarrow\mathbb{R}^{n_1\times...\times&space;n_d}\times\mathbb{R}," alt="Eqn1">
+</p>
 
 
 where $\Psi$ is the neural network, $\psi$ is the input function, $\Omega$ is a mesh, $(i_1,...,i_d)$ is a specified index, $t$ is time, and $\tilde{\psi}$ is the solution.
