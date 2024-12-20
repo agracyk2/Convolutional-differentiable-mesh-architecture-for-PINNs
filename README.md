@@ -9,7 +9,7 @@ In particular, we learn the mapping
 
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.image?\Psi_{\theta_{\Psi}}(\psi,\Omega,(i_1,...,i_d),t)\rightarrow(\tilde{\psi}_{t},[\tilde{\psi}_{t}]_{i_1,...,i_d}))" alt="Eqn1">
+  <img src="https://latex.codecogs.com/svg.image?\Psi_{\theta_{\Psi}}(\psi,\Omega,(i_1,...,i_d),t)\rightarrow(\tilde{\psi}_{t},[\tilde{\psi}_{t}]_{i_1,...,i_d})," alt="Eqn1">
 </p>
 
 
