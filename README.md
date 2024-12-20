@@ -1,4 +1,4 @@
-# Convolutional-differentiable mesh architecture (for PINNs)
+# Convolutional-differentiable mesh architecture for PINNs
 This repository contains a convolutional architecture that 
 - takes an input function
 - transforms that function into an output over a mesh
@@ -7,7 +7,9 @@ This repository contains a convolutional architecture that
 
 In particular, we learn the mapping
 
-$$ \Psi_{\theta_{\Psi}} (\psi, \Omega, (i_1, ..., i_d), t) \rightarrow ( \tilde{\psi}, \tilde{\psi}_{i_1,...,i_d}) ,$$
+\begin{equation}
+\Psi_{\theta_{\Psi}} (\psi, \Omega, (i_1, ..., i_d), t) \rightarrow ( \tilde{\psi}_t, \tilde{\psi}_{t,i_1,...,i_d}) ,
+\end{equation
 
 where $\Psi$ is the neural network, $\psi$ is the input function, $\Omega$ is a mesh, $(i_1,...,i_d)$ is a specified index, $t$ is time, and $\tilde{\psi}$ is the solution.
   
