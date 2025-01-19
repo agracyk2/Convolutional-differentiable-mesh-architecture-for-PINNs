@@ -3,7 +3,7 @@ This repository contains a convolutional architecture that
 - takes an input function
 - transforms that function into an output over a mesh
 - allows a single point along that mesh to be extracted
-- allows differentiability along that point with respect to the domain (mesh) and time, thus suitable for physics-informed applications.
+- allows automatic differentiability along that point with respect to the domain (mesh) and time, thus suitable for physics-informed applications.
 
 In particular, we learn the mapping
 
