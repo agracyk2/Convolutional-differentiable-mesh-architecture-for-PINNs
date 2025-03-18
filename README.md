@@ -23,8 +23,9 @@ or equivalently,
 where $\Psi$ is the neural network, $\psi$ is the input function, $\Omega$ is a mesh, $(i_1,...,i_d)$ is a specified index, $t$ is time, and $\tilde{\psi}$ is the solution.
 
 
+
 <div align="center">
-<img src="https://github.com/user-attachments/assets/615772cd-c520-425d-b65d-066149a63890" width="500">
+<img src="https://github.com/user-attachments/assets/55811e48-d47a-48ec-bcc6-1bd70d10a4ca" width="500">
 </div>
   
 The architecture thus outputs both the entire mesh at once as well as a single, specified point. This architecture is notable because differentiation in this process is traditionally nontrivial (i.e. we can bypass the error "One of the differentiated tensors has not been used in the graph"), and it prevents the need for concatenation over the entire grid (i.e. it is already done for us).
